@@ -7,6 +7,11 @@ public class SetColorOnStart : MonoBehaviour
     [SerializeField]
     ObjectColor objectColor;
 
+    private void Start()
+    {
+        Cursor.lockState = CursorLockMode.Confined;
+    }
+
     private void Update()
     {
         if (objectColor == null)
