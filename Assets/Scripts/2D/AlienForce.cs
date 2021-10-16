@@ -24,6 +24,7 @@ public class AlienForce : MonoBehaviour
         var force = new Vector2(horizontal, vertical) * Time.deltaTime;
         if (force.magnitude > 0)
         {
+
             body.AddForce(force);
         }
     }
