@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class QuestStatus : MonoBehaviour
+public class QuestStatus
 {
     public Quest questData;
     public Dictionary<int, Quest.Status> objectivesStatuses;
@@ -15,7 +15,7 @@ public class QuestStatus : MonoBehaviour
         for (int i = 0; i < questData.objectives.Count; i++)
         {
             var objectiveData = questData.objectives[i];
-            objectivesStatuses[i] = objectiveData.initionalStatus;
+            objectivesStatuses[i] = objectiveData.initalStatus;
         }
     }
 

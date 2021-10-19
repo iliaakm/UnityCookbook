@@ -12,21 +12,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0627e8f33d89dcc45b32772325e2d5db, type: 3}
   m_Name: Click on the blocks
   m_EditorClassIdentifier: 
-  questName: 
+  questName: Click on the blocks
   objectives:
   - name: Click on the red block
     optional: 0
     visible: 1
-    initionalStatus: 0
+    initalStatus: 0
   - name: Click on the green block
     optional: 1
     visible: 1
-    initionalStatus: 0
+    initalStatus: 0
   - name: Click on the yellow block
     optional: 1
     visible: 0
-    initionalStatus: 0
+    initalStatus: 0
   - name: Don't click on the blue block
     optional: 0
     visible: 0
-    initionalStatus: 1
+    initalStatus: 1

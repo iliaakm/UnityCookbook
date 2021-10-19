@@ -25,7 +25,7 @@ public class Quest : ScriptableObject
         public string name = "New Objective";
         public bool optional = false;
         public bool visible = true;
-        public Status initionalStatus = Status.NotYetComplete;
+        public Status initalStatus = Status.NotYetComplete;
     }
 }
 

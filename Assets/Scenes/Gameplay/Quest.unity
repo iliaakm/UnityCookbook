@@ -234,7 +234,7 @@ MonoBehaviour:
   objective:
     quest: {fileID: 11400000, guid: 64dac07c198215441b95d18a8bea4d02, type: 2}
     statusToApply: 2
-    objectiveNumber: 0
+    objectiveNumber: 3
 --- !u!1 &185898797
 GameObject:
   m_ObjectHideFlags: 0
@@ -565,7 +565,7 @@ MonoBehaviour:
   objective:
     quest: {fileID: 11400000, guid: 64dac07c198215441b95d18a8bea4d02, type: 2}
     statusToApply: 1
-    objectiveNumber: 0
+    objectiveNumber: 1
 --- !u!1 &878761133
 GameObject:
   m_ObjectHideFlags: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
   objective:
     quest: {fileID: 11400000, guid: 64dac07c198215441b95d18a8bea4d02, type: 2}
     statusToApply: 1
-    objectiveNumber: 0
+    objectiveNumber: 2
 --- !u!1 &1968232967
 GameObject:
   m_ObjectHideFlags: 0
