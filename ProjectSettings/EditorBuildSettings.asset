@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Physics.unity
-    guid: c37334e998947b74ea3d3577128a1337
+    path: Assets/Scenes/Physics/MutliScenePhysics/MainPhysicsScene.unity
+    guid: 10f7edb7d8640c24593cf515542e6b2d
+  - enabled: 1
+    path: Assets/Scenes/Physics/MutliScenePhysics/AlternarePhysicsScene.unity
+    guid: 32b52d966014e2b45a598b5c35e83961
   m_configObjects: {}
